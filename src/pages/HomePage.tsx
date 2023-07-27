@@ -8,7 +8,8 @@ export const HomePage = () => {
     <div className='text-center'>
       <h1 className='font-bold text-lg'>Counter MF</h1>
       <Error>
-        <Counter  />
+        {/* <Counter initialCounter={0}  /> */}
+        <Counter />
       </Error>
     </div>
   )
